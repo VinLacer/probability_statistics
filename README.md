@@ -23,3 +23,7 @@ The ``` ['MCUL03'] ``` is the column that contains information about public sex.
 To facilitate the understanding of that code I'll make available the .xlsx file that I use to take the data, so you can use it as an example and build your .xlsx file to use this code.
 
 You can also open the .ipynb to see the code preview. Maybe it will help you. 
+
+## Examples of statistics that the code gives you:
+
+<img src = "https://user-images.githubusercontent.com/71742380/192061426-e33dd464-2dfb-4962-af6a-43d36d633f6a.png">
