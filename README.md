@@ -9,15 +9,17 @@ So if you want to get the same information of other .xlsx files of your choice, 
 ```
 dados = pd.read_excel('Basededadostrabalhofinal.xlsx', sheet_name= 2)
 ```
-Between the '' put the .xlsx file name and change the sheet_name to the number of the tab you want to take the data
+Between the '    ' put the .xlsx file name and change the sheet_name to the number of the tab you want to take the data
 
 ### Collumns names
 ```
 dados['MCUL03'].str.contains('Masculino').sum()
 ```
 
-The ``` ['MCUL03'] ``` is the collumn that contains the information abbout public sex. So in this case you can change to search what you want and take the number of repetitions contains in the respective collumn.
+The ``` ['MCUL03'] ``` is the column that contains information about public sex. So in this case you can change to search what you want and take the number of repetitions contains in the respective column.
 
-### Exemple
+### Example:
 
-To facilitate the understanding of that code i'll make avaible the .xlsx file that i use to take the data, so you can use as a exemple and build your own .xlsx file to use this code.
+To facilitate the understanding of that code I'll make available the .xlsx file that I use to take the data, so you can use it as an example and build your .xlsx file to use this code.
+
+You can also open the .ipynb to see the code preview. Maybe it will help you. 
