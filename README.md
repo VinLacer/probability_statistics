@@ -1,14 +1,11 @@
 # probability_statistics
-I make this code to simplify a final lesson of probability and statistics of my eletronics engineering course, using pandas and numpy libraries from python.
+I made this code to simplify a final lesson on probability and statistics in my electronics engineering course, using pandas and NumPy libraries from python.
 
 What it does:
-
-This calculates the basic statistics of a .xlsx file in the same path of the .py and also plot some graphs. This code calculate the ANOVA test too.
-
-So if you want to get the same informations of others .xlsx files of your choise, follow the next steps:
+This calculates the basic statistics of a .xlsx file in the same path as the .py and also plots some graphs. This code calculates the ANOVA test too.
+So if you want to get the same information of other .xlsx files of your choice, follow the next steps:
 
 ### Change the .xlsx name file
-
 ```
 dados = pd.read_excel('Basededadostrabalhofinal.xlsx', sheet_name= 2)
 ```
